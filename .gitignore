@@ -1,0 +1,42 @@
+# Archivos de configuración sensibles
+config.php
+db_config.php
+database.php
+
+# Archivos de sesión y temporales
+*.log
+*.tmp
+*.cache
+sessions/
+temp/
+tmp/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencias (si usas composer)
+/vendor/
+composer.lock
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos subidos por usuarios (si aplica)
+uploads/
+files/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
